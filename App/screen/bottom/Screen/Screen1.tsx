@@ -221,7 +221,7 @@ const Screen1 = ({navigation}: {navigation: any}) => {
                 source={require('../../../assets/images/home/04/Home-6-product-04.jpg')}
                 style={styles.productImage}
               />
-              <Text style={styles.productTitle}>Organic red onion</Text>
+              <Text style={styles.productTitle}>Organic red onions</Text>
               <Text style={{color: 'black'}}>$60.00</Text>
             </View>
           </View>
