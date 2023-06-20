@@ -417,12 +417,12 @@ const styles = StyleSheet.create({
     marginTop: 50,
   },
   cardView: {
-    padding: 20,
+    paddingVertical: 5,
     flex: 1,
     alignContent: 'center',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    marginVertical: 10,
+    marginVertical: 5,
   },
   cardContainer: {
     width: 170,
