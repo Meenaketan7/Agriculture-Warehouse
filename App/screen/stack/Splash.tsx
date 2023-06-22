@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginBottom: 20,
     padding: 10,
+    color: '#162e09',
   },
 });
 

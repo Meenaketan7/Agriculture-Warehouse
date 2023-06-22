@@ -1,23 +1,31 @@
-
-import {View, Text} from 'react-native';
+import {View, Text, SafeAreaView} from 'react-native';
 import React from 'react';
-const Screen2 = ({navigation}:{navigation:any}) => {
+import FoodForm from '../FoodForm';
+import FoodList from '../FoodList';
+const Screen2 = ({navigation}: {navigation: any}) => {
   return (
-    <View
+    <SafeAreaView
       style={{
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'blue',
+        alignSelf: 'center',
+        backgroundColor: '#fdfbf1',
       }}>
       <Text
-        style={{fontSize: 30}}
-        onPress={() => {
-          navigation.openDrawer();
+        style={{
+          top: 30,
+          textAlign: 'center',
+          fontSize: 40,
+          fontWeight: 'bold',
+          padding: 10,
+          color: 'green',
         }}>
-        Screen2
+        List Of Vegetables
       </Text>
-    </View>
+      <>
+        <FoodForm />
+        <FoodList />
+      </>
+    </SafeAreaView>
   );
 };
 export default Screen2;
