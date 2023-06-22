@@ -1,7 +1,7 @@
 import {View, Text, SafeAreaView} from 'react-native';
 import React from 'react';
-import FoodForm from '../FoodForm';
-import FoodList from '../FoodList';
+import FoodForm from '../zustand/FoodForm';
+import FoodList from '../zustand/FoodList';
 const Screen2 = ({navigation}: {navigation: any}) => {
   return (
     <SafeAreaView
