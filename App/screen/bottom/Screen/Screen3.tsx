@@ -1,22 +1,17 @@
 import {View, Text} from 'react-native';
 import React from 'react';
+import ProductList from '../../../components/ProductLIst';
+
 
 const Screen3 = ({navigation}:{navigation:any}) => {
   return (
     <View
       style={{
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'green',
+        padding: 16,
       }}>
-      <Text
-        style={{fontSize: 30}}
-        onPress={() => {
-          navigation.openDrawer();
-        }}>
-        Screen3
-      </Text>
+      <ProductList/>
+        
     </View>
   );
 };
